@@ -1,8 +1,8 @@
 import 'package:device_preview/device_preview.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_primeiro_projeto/pages/container/container_page.dart';
 import 'package:flutter_primeiro_projeto/pages/home/home_page.dart';
+import 'package:flutter_primeiro_projeto/pages/layout_builder/layout_builder_page.dart';
 import 'package:flutter_primeiro_projeto/pages/midia_query/media_query_page.dart';
 import 'package:flutter_primeiro_projeto/pages/rows_columns/rows_column_page.dart';
 
@@ -31,7 +31,8 @@ class MyApp extends StatelessWidget {
         '/': (context) => const HomePage(),
         '/container': (context) => const ContainerPage(),
         '/rows_columns': (context) => const RowsColumnPage(),
-        '/media_query': (context) => const MediaQueryPage()
+        '/media_query': (context) => const MediaQueryPage(),
+        '/layout_builder': (context) => const LayoutBuilderPage(),
       },
       debugShowCheckedModeBanner: false,
     );
