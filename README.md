@@ -11,3 +11,4 @@ Projeto desenvolvido durante os estudos de Flutter.
 -  Device Preview Package (package para auxilia no desenvolvimento da aplicação para deixar mais responsivo possível)
 -  Layout Builder
 -  Botões e rotação de texto
+-  Scrolls com ListView e SingleChildScrollView

@@ -6,6 +6,8 @@ import 'package:flutter_primeiro_projeto/pages/home/home_page.dart';
 import 'package:flutter_primeiro_projeto/pages/layout_builder/layout_builder_page.dart';
 import 'package:flutter_primeiro_projeto/pages/midia_query/media_query_page.dart';
 import 'package:flutter_primeiro_projeto/pages/rows_columns/rows_column_page.dart';
+import 'package:flutter_primeiro_projeto/pages/scrolls/listview_page.dart';
+import 'package:flutter_primeiro_projeto/pages/scrolls/singlechildscrollview_page.dart';
 
 void main() {
   runApp(
@@ -35,6 +37,8 @@ class MyApp extends StatelessWidget {
         '/media_query': (context) => const MediaQueryPage(),
         '/layout_builder': (context) => const LayoutBuilderPage(),
         '/botoes_rotacao_text': (context) => const BotoesRotacoesTextoPage(),
+        '/scrolls/single_child': (context) => const SinglechildscrollviewPage(),
+        '/scrolls/list_view': (context) => const ListviewPage(),
       },
       debugShowCheckedModeBanner: false,
     );
