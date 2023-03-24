@@ -1,5 +1,6 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_primeiro_projeto/pages/botoes_rotacao_texto/botoes_rotacoes_texto_page.dart';
 import 'package:flutter_primeiro_projeto/pages/container/container_page.dart';
 import 'package:flutter_primeiro_projeto/pages/home/home_page.dart';
 import 'package:flutter_primeiro_projeto/pages/layout_builder/layout_builder_page.dart';
@@ -33,6 +34,7 @@ class MyApp extends StatelessWidget {
         '/rows_columns': (context) => const RowsColumnPage(),
         '/media_query': (context) => const MediaQueryPage(),
         '/layout_builder': (context) => const LayoutBuilderPage(),
+        '/botoes_rotacao_text': (context) => const BotoesRotacoesTextoPage(),
       },
       debugShowCheckedModeBanner: false,
     );
