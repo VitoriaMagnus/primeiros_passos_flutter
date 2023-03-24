@@ -12,3 +12,4 @@ Projeto desenvolvido durante os estudos de Flutter.
 -  Layout Builder
 -  Botões e rotação de texto
 -  Scrolls com ListView e SingleChildScrollView
+-  Tipos de Dialogs: Custom Dialog, Simple Dialog, Alert Dialog, Timer Picker, Date Picker e About Dialog

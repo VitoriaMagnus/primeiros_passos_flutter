@@ -8,6 +8,7 @@ enum PopupMenuPages {
   botoes_rotacao_texto,
   scrolls_singlechildscrollview,
   scrolls_listview,
+  dialogs,
 }
 
 class HomePage extends StatelessWidget {
@@ -43,7 +44,9 @@ class HomePage extends StatelessWidget {
                   break;
                 case PopupMenuPages.scrolls_listview:
                   Navigator.of(context).pushNamed('/scrolls/list_view');
-
+                  break;
+                case PopupMenuPages.dialogs:
+                  Navigator.of(context).pushNamed('/dialogs');
                   break;
               }
             },
@@ -78,12 +81,23 @@ class HomePage extends StatelessWidget {
                   value: PopupMenuPages.scrolls_listview,
                   child: Text('Scroll ListView'),
                 ),
+                const PopupMenuItem<PopupMenuPages>(
+                  value: PopupMenuPages.dialogs,
+                  child: Text('Dialogs'),
+                ),
               ];
             },
           ),
         ],
       ),
-      body: Container(),
+      body: const Center(
+        child: Text(
+          'Primeiros passos em Flutter',
+          style: TextStyle(
+            fontSize: 22,
+          ),
+        ),
+      ),
     );
   }
 }
