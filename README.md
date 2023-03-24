@@ -1,4 +1,4 @@
-# Fundamentos Flutter
+# Primeiros Passos em Flutter
 
 Projeto desenvolvido durante os estudos de Flutter.
 
@@ -13,3 +13,4 @@ Projeto desenvolvido durante os estudos de Flutter.
 -  Botões e rotação de texto
 -  Scrolls com ListView e SingleChildScrollView
 -  Tipos de Dialogs: Custom Dialog, Simple Dialog, Alert Dialog, Timer Picker, Date Picker e About Dialog
+-  Identificar a plataforma e apresentar os components corretos
