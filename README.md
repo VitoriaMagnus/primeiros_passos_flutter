@@ -17,3 +17,4 @@ Projeto desenvolvido durante os estudos de Flutter.
 -  Theme (customizando o seu tema)
 -  Snackbar
 -  Criação de Formulário(TextFormField e TextField) e DropdownButton
+-  Leitura de arquivo Json da pasta assets
