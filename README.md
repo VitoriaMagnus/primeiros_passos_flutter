@@ -15,3 +15,4 @@ Projeto desenvolvido durante os estudos de Flutter.
 -  Tipos de Dialogs: Custom Dialog, Simple Dialog, Alert Dialog, Timer Picker, Date Picker e About Dialog
 -  Identificar a plataforma e apresentar os components corretos
 -  Theme (customizando o seu tema)
+-  Snackbar
