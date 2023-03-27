@@ -90,11 +90,24 @@ class HomePage extends StatelessWidget {
           ),
         ],
       ),
-      body: const Center(
-        child: Text(
-          'Primeiros passos em Flutter',
-          style: TextStyle(
-            fontSize: 22,
+      body: Theme(
+        data: Theme.of(context).copyWith(
+          primaryColor: Colors.red,
+          elevatedButtonTheme: ElevatedButtonThemeData(
+            style: ElevatedButton.styleFrom(
+              primary: Colors.purple,
+            ),
+          ),
+        ),
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              ElevatedButton(
+                onPressed: () {},
+                child: Text('Botão'),
+              ),
+            ],
           ),
         ),
       ),
