@@ -16,3 +16,4 @@ Projeto desenvolvido durante os estudos de Flutter.
 -  Identificar a plataforma e apresentar os components corretos
 -  Theme (customizando o seu tema)
 -  Snackbar
+-  Criação de Formulário(TextFormField e TextField) e DropdownButton
