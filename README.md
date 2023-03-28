@@ -19,3 +19,4 @@ Projeto desenvolvido durante os estudos de Flutter.
 -  Criação de Formulário(TextFormField e TextField) e DropdownButton
 -  Leitura de arquivo Json da pasta assets
 -  Stack: criação de uma page com Stack
+-  BottomNavigatorBar e IndexedStack
