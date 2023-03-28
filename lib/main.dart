@@ -10,6 +10,7 @@ import 'package:flutter_primeiro_projeto/pages/dialogs/dialogs_pages.dart';
 import 'package:flutter_primeiro_projeto/pages/forms/forms_page.dart';
 import 'package:flutter_primeiro_projeto/pages/home/home_page.dart';
 import 'package:flutter_primeiro_projeto/pages/layout_builder/layout_builder_page.dart';
+import 'package:flutter_primeiro_projeto/pages/material_banner/material_banner_page.dart';
 import 'package:flutter_primeiro_projeto/pages/midia_query/media_query_page.dart';
 import 'package:flutter_primeiro_projeto/pages/rows_columns/rows_column_page.dart';
 import 'package:flutter_primeiro_projeto/pages/scrolls/listview_page.dart';
@@ -67,6 +68,7 @@ class MyApp extends StatelessWidget {
         '/bottomnavigatorbar': (context) => const BottomNavigatorBarPage(),
         '/circle_avatar': (context) => const CircleAvatarPage(),
         '/colors': (context) => const ColorsPage(),
+        '/material_banner': (context) => const MaterialBannerPage(),
       },
       debugShowCheckedModeBanner: false,
     );

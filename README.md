@@ -21,3 +21,4 @@ Projeto desenvolvido durante os estudos de Flutter.
 -  Stack: criação de uma page com Stack
 -  BottomNavigatorBar e IndexedStack
 -  Criação do CircleAvatar inspirado no avatar do Instagram
+-  Material Banner
